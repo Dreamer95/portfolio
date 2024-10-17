@@ -1,10 +1,14 @@
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import { Link } from "react-scroll";
+import {getPathResume} from "../../../utils";
 const MobileMenu = props => {
   const closeMenu = () => {
     props.setRotate(!props.rotate);
     props.setShowElement(!props.ShowElement);
   };
+
+  const pathResume = getPathResume();
+
   return (
     <>
       <motion.div
@@ -89,7 +93,7 @@ const MobileMenu = props => {
               Contact
             </span>
           </Link>
-          <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+          <a href={pathResume} target={"_blank"} rel="noreferrer">
             <button
               className="rounded border font-Text2  border-AAsecondary
            hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"

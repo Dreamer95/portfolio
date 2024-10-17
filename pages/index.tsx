@@ -118,8 +118,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://resume.dongdn195.tech`} />
-        <link rel="canonical" href={`https://resume.dongdn195.tech`} />
+        <meta property="og:url" content={`https://dreamer95.github.io/portfolio/`} />
+        <link rel="canonical" href={`https://dreamer95.github.io/portfolio/`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
