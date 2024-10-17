@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 
+const isDev = process.env.NODE_ENV === 'development';
+
 const nextConfig = {
   output: 'export',
   distDir: 'out',
@@ -11,8 +13,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+  basePath: isDev ? '' : '/portfolio',
+  assetPrefix:isDev ? '' :  '/portfolio',
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
