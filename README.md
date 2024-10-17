@@ -1,20 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="https://user-images.githubusercontent.com/62770500/199333052-3cd38b31-7e77-4883-a1ff-a037afcc0492.png" width="100" />
-</div>
-<h1 align="center">
-  anaflous.com - v1
-</h1>
-<p align="center">
-  The first iteration of <a href="https://resume.dongdn195.tech" target="_blank">anaflous.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
-</p>
-
-<p align="center">
-  <a href="https://my-website-ten-sage.vercel.app/" target="_blank">
-    <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
-  </a>
-</p>
-
-![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png)
 ---
 ## 🚨 About this repo (please read!)
 
@@ -200,7 +183,7 @@ the following endpoint will return a json object contains "quote" and "author", 
 
 MIT License
 
-Copyright (c) [2022] [Ngoc Dong Anaflous]
+Copyright (c) [2022] [Ngoc Dong]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -221,15 +204,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-
----
-
-## Author Info
-
-- Linkedin - [@abdellatif-anaflous](https://www.linkedin.com/in/abdellatif-anaflous/)
-- Website - [Abdellatif Anaflous](https://resume.dongdn195.tech)
-
 [Back To The Top](#description) :
-
-test pipeline 6
 
