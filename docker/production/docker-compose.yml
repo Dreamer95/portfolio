@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  portfolio:
+    build:
+      context: ../../
+      args:
+        - NEXT_PUBLIC_GOOGLE_ANALYTICS
+        - ENVIRONMENT
+      dockerfile: docker/production/Dockerfile
+    image: resume
+    restart: on-failure
+    environment:
+      - NEXT_PUBLIC_GOOGLE_ANALYTICS=G-G1BRQ2G7RP
+      - ENVIRONMENT=production
+    ports:
+      - "3004:3000"
+    networks:
+        - my-shared-network
+networks:
+  my-shared-network:
+    external: true
