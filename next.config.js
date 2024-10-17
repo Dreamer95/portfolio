@@ -21,12 +21,6 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
-  swcMinify: true,
-  env: {
-    NEXT_PUBLIC_GOOGLE_ANALYTICS: process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS,
-    ENVIRONMENT: process.env.ENVIRONMENT,
-    NODE_ENV: process.env.ENVIRONMENT,
-  }
 }
 
 module.exports = nextConfig
