@@ -8,6 +8,8 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  basePath: 'portfolio',
+  assetPrefix: 'portfolio',
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
