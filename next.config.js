@@ -8,6 +8,9 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    unoptimized: true,
+  },
   basePath: '/portfolio',
   assetPrefix: '/portfolio',
   typescript: {
